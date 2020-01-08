@@ -8,7 +8,7 @@
   "scripts": {
     "client-install": "cd client && yarn install",
     "build": "cd client && yarn run build",
-    "client": "cd client && yarn run webpack-dev-server",
+    "client": "cd client && yarn run dev-server",
     "start": "node server.js",
     "server": "nodemon server.js",
     "dev": "concurrently \"yarn run server\" \"yarn run client\"",

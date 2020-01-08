@@ -1,0 +1,26 @@
+{
+  "name": "numericode-app",
+  "version": "1.0.0",
+  "description": "A message decoder",
+  "main": "server.js",
+  "author": "Celine Abessolo",
+  "license": "MIT",
+  "scripts": {
+    "client-install": "cd client && yarn install",
+    "build": "cd client && yarn run build",
+    "client": "cd client && yarn run webpack-dev-server",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"yarn run server\" \"yarn run client\"",
+    "test": "jest"
+  },
+  "dependencies": {
+    "concurrently": "^5.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: #c98140;
+  color: #fff;
+  font-family: Courier;
+}
+
+textarea {
+  outline: none;
+  border: none;
+  width: 317px;
+  height: 136px;
+  padding: 10px;
+  font-family: courier;
+  font-size: 14px;
+}
+
+p {
+  color: #98eaf3;
+}

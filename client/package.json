@@ -20,7 +20,7 @@
     "css-loader": "^3.4.1",
     "live-server": "^1.2.1",
     "react": "16.0.0",
-    "react-dom": "16.0.0",
+    "react-dom": "16.0.1",
     "style-loader": "^1.1.2",
     "validator": "8.0.0",
     "webpack": "3.1.0",
